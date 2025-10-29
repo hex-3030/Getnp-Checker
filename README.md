@@ -27,5 +27,5 @@ Run `GetNPUsers.py` against a list of accounts, stream output, and make success 
 ### Bash (quick)
 ```bash
 # example with included bash script
-./Check_GetNPUsers.sh  --domain spookysec.local --success-color red
+./Check_GetNPUsers.py  --domain spookysec.local --success-color red
 

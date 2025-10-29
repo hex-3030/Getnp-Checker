@@ -1,4 +1,8 @@
-# getnp-checker
+# **ASREPRoasting :**
+
+ we can use a technique called ASREPRoasting, meaning if a user does not have the Kerberos preauthentication property selected it is possible to retrieve the password hash from that user. this tool which can query the AD and if the property above is not selective it will export their TGT.
+
+# Getnp-Checker
 
 Retrieving Kerberos Tickets
 hat will allow us to query ASReproastable accounts from the Key Distribution Center. The only thing that's necessary to query accounts is a valid set of usernames which we enumerated previously via Kerbrute.
@@ -27,5 +31,5 @@ Run `GetNPUsers.py` against a list of accounts, stream output, and make success 
 ### Bash (quick)
 ```bash
 # example with included Python script
-./Check_GetNPUsers.py  --domain spookysec.local --success-color red
+python3 Check_GetNPUsers.py  --domain spookysec.local --success-color red
 
